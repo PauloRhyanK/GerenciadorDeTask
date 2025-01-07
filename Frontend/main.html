@@ -26,7 +26,7 @@
                     <input type="text" id="idName" name="name" placeholder="Insira nova tarefa">
                 </div>
                 <div class="item h margin-top">
-                    <div class="sitem v">
+                    <div class="v">
                         <label for="priority">Prioridade</label>
                         <select name="priority" id="idPriority">
                             <option value="longterm">Longo Prazo</option>
@@ -36,7 +36,7 @@
                             <option value="urgent">Urgente</option>
                         </select>
                     </div>
-                    <div class="sitem v">
+                    <div class="v">
                         <label for="taskType">Tipo</label>                        
                         <select name="taskType" id="idTaskType">
                             <option value="career">Carreira</option>
@@ -46,10 +46,58 @@
                         </select>
                     </div>
                 </div>
-                <div class="submit">
+                <div class="send">
                     <button id="btnAdd" class="btnAdd">
                         Adicionar
                     </button>
+                </div>
+            </div>
+            <div class="container control">
+                <div>
+                    <div class="item v min-margin">
+                        <label for="search">Pesquisar Tarefa</label>
+                        <input type="text" placeholder="Nome da tarefa">
+                    </div>
+                    <div class="item filter min-margin">
+                        <div>
+                            <p>Filtrar</p>
+
+                        </div>
+                        <div class="options h">
+                            <div class="v">
+                                <label for="priority">Prioridade</label>
+                                <select name="priority" id="idPriority">
+                                    <option value="longterm">Longo Prazo</option>
+                                    <option value="three months">3 Mêses</option>
+                                    <option value="moderate">Medio</option>
+                                    <option value="high">Alto</option>
+                                    <option value="urgent">Urgente</option>
+                                </select>
+                            </div>
+                            <div class="v">
+                                <label for="taskType">Tipo</label>                        
+                                <select name="taskType" id="idTaskType">
+                                    <option value="career">Carreira</option>
+                                    <option value="university">Faculdade</option>
+                                    <option value="personal">Pessoal</option>
+                                    <option value="ministry">Ministério</option>
+                                </select>
+                            </div>  
+                            <div class="v">
+                                <label for="taskType">Tempo</label>                        
+                                <select name="taskType" id="idTaskType">
+                                    <option value="career">Recentes</option>
+                                    <option value="university">Antigas</option>
+                                </select>
+                            </div>  
+                        </div>
+                        
+                    </div>
+                    <div class="send">
+                        <button>Buscar</button>
+
+                    </div>
+                    
                 </div>
             </div>
 

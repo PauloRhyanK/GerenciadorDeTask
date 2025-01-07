@@ -26,6 +26,7 @@ header{
 .item{
     margin: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     
 }
@@ -70,14 +71,14 @@ header{
     margin-top: 5px;
 }
 
-.submit{
+.send{
     margin: 20px;
     margin-top: 0px;
     display: flex;
     justify-content: end;
 }
 
-.submit button{
+button{
     width: 150px;
     height: 35px;
     background-color: #01a1d1;
@@ -86,4 +87,37 @@ header{
     border-radius: 10px;
     letter-spacing: 2px;
     font-weight: 800;
+}
+
+.control{
+    margin-top: 40px;
+}
+
+.control button{
+    margin-right: 0px;
+    align-self: end;
+}
+
+.filter p{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.filter label{
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.filter select{
+    width: 150px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.min-margin{
+    margin: 25px;
 }
