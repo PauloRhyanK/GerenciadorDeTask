@@ -87,6 +87,12 @@ button{
     border-radius: 10px;
     letter-spacing: 2px;
     font-weight: 800;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.85); /* Reduz ligeiramente o tamanho do botão */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra para dar a impressão de profundidade */
 }
 
 .control{
@@ -121,3 +127,61 @@ button{
 .min-margin{
     margin: 25px;
 }
+
+.task-list h4{
+    font-size: 22px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.task-list ul{
+    padding: 0px;
+}
+
+.task-list li{
+    margin: 20px;
+    padding: 15px;
+    list-style: none;
+    background-color: #49566b;
+    border: solid 1px #9794a0;
+    border-radius: 15px;
+
+}
+
+.task-class{
+    display: flex;
+}
+
+.task-class p{
+    margin: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    padding: 8px;
+    border: white solid 1px;
+    border-radius: 10px;
+}
+
+.task-top{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr; 
+    grid-template-rows: 1fr;
+}
+
+.task-top button{
+    width: 45px;
+    background-color: #212431;
+}
+
+
+.task-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time{
+    display: flex;
+    align-items: end;
+    color: #bdbac5;
+}
+
